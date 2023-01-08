@@ -2,7 +2,7 @@ package org.example.mortgage.services;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import pl.zajavka.mortgage.model.*;
+import org.example.mortgage.model.*;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

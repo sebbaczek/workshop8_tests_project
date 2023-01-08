@@ -1,9 +1,9 @@
 package org.example.mortgage.services;
 
-import pl.zajavka.mortgage.model.InputData;
-import pl.zajavka.mortgage.model.Overpayment;
-import pl.zajavka.mortgage.model.Rate;
-import pl.zajavka.mortgage.model.RateAmounts;
+import org.example.mortgage.model.InputData;
+import org.example.mortgage.model.Overpayment;
+import org.example.mortgage.model.Rate;
+import org.example.mortgage.model.RateAmounts;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,6 +1,6 @@
 package org.example.mortgage.services;
 
-import pl.zajavka.mortgage.model.*;
+import org.example.mortgage.model.*;
 
 import java.math.BigDecimal;
 

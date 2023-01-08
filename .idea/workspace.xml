@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="init" />
+    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mortgage/services/TimePointCalculationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Rate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Summary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/TimePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/TimePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +49,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -57,9 +91,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/kompland/Desktop/JAVA/projects/workshop8_tests_exc1",
+    "last_opened_file_path": "C:/Users/kompland/Desktop/JAVA/projects/workshop8_tests_project",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -75,10 +110,11 @@
       <recent name="C:\Users\kompland\Desktop\JAVA\projects\workshop8_tests_project\src\main\java\org\example" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.mortgage.services" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TimePointCalculationServiceImplTest.testCalculate">
     <configuration name="MortgageCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.mortgage.MortgageCalculator" />
       <module name="workshop8_tests_project.main" />
@@ -92,8 +128,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimePointCalculationServiceImplTest.calculate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.mortgage.services.TimePointCalculationServiceImplTest.calculate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimePointCalculationServiceImplTest.testCalculate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.mortgage.services.TimePointCalculationServiceImplTest.testCalculate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TimePointCalculationServiceImplTest.testCalculate" />
+        <item itemvalue="Gradle.TimePointCalculationServiceImplTest.calculate" />
         <item itemvalue="Application.MortgageCalculator" />
       </list>
     </recent_temporary>

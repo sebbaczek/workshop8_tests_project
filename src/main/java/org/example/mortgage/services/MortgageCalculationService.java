@@ -1,6 +1,6 @@
 package org.example.mortgage.services;
 
-import pl.zajavka.mortgage.model.InputData;
+import org.example.mortgage.model.InputData;
 
 public interface MortgageCalculationService {
 

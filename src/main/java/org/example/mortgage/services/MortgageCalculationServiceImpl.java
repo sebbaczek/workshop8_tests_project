@@ -2,9 +2,9 @@ package org.example.mortgage.services;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import pl.zajavka.mortgage.model.InputData;
-import pl.zajavka.mortgage.model.Rate;
-import pl.zajavka.mortgage.model.Summary;
+import org.example.mortgage.model.InputData;
+import org.example.mortgage.model.Rate;
+import org.example.mortgage.model.Summary;
 
 import java.util.List;
 

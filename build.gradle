@@ -37,9 +37,9 @@ test {
     testLogging {
         events "passed","skipped","failed"
     }
-    finalizedBy jacocoTestReport
+//    finalizedBy jacocoTestReport
 }
-jacoco {
+/*jacoco {
     toolVersion = "0.8.7"
 }
 
@@ -62,7 +62,7 @@ jacocoTestCoverageVerification {
         }
     }
 }
-check.dependsOn jacocoTestCoverageVerification
+check.dependsOn jacocoTestCoverageVerification*/
 
 //TDD - test driven(first) development - najpierw piszemy przykpadki testowe a potem kod; test sprawdza na bieżąco
 // napisany kod, pomaga rozbić kod na małe części

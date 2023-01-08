@@ -1,8 +1,8 @@
 package org.example.mortgage.services;
 
-import pl.zajavka.mortgage.model.InputData;
-import pl.zajavka.mortgage.model.Rate;
-import pl.zajavka.mortgage.model.TimePoint;
+import org.example.mortgage.model.InputData;
+import org.example.mortgage.model.Rate;
+import org.example.mortgage.model.TimePoint;
 
 import java.math.BigDecimal;
 
