@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mortgage/services/TimePointCalculationServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Rate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/Summary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/TimePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/model/TimePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/AmountsCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ConstantAmountsCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/DecreasingAmountsCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/MortgageCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/OverpaymentCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/PrintingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/RateCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ReferenceCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/ResidualCalculationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/SummaryServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mortgage/services/TimePointCalculationServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673077140733</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1673187427351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673187427351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +206,7 @@
     </ignored-roots>
     <MESSAGE value="changes" />
     <MESSAGE value="jacoco" />
-    <option name="LAST_COMMIT_MESSAGE" value="jacoco" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
