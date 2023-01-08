@@ -1,0 +1,68 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '18'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //logback-classic dodaje też slf4j
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.5'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+//    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.5'
+    //slf4j-simple domyślnie nie loguje poziomu poniżej info, slf4j-simple zastępuje np. logbacka;
+//    konfiguracja w simplelogger.properties
+//    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.5'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.9.0'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed","skipped","failed"
+    }
+    finalizedBy jacocoTestReport
+}
+jacoco {
+    toolVersion = "0.8.7"
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required = false
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtmlCustom')
+    }
+}
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                counter = 'LINE'
+                value = 'COVEREDRATIO'
+                minimum = 0.50
+            }
+        }
+    }
+}
+check.dependsOn jacocoTestCoverageVerification
+
+//TDD - test driven(first) development - najpierw piszemy przykpadki testowe a potem kod; test sprawdza na bieżąco
+// napisany kod, pomaga rozbić kod na małe części
